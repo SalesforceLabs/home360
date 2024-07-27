@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequestType__c</fullName>
+    <label>RequestType</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Amenity and Reservation Requests</fullName>
+                <default>true</default>
+                <label>Amenity and Reservation Requests</label>
+            </value>
+            <value>
+                <fullName>Billing Question</fullName>
+                <default>false</default>
+                <label>Billing Question</label>
+            </value>
+            <value>
+                <fullName>Fee Waiver Request</fullName>
+                <default>false</default>
+                <label>Fee Waiver Request</label>
+            </value>
+            <value>
+                <fullName>General Question</fullName>
+                <default>false</default>
+                <label>General Question</label>
+            </value>
+            <value>
+                <fullName>Service Request</fullName>
+                <default>false</default>
+                <label>Service Request</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

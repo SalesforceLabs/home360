@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>preeti</container>
+    <containerType>CommunityTemplateDefinition</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>Dashboard</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Payment</label>
+                <position>0</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>Financial__c</target>
+                <type>SalesforceObject</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Requests</label>
+                <position>1</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>Request__c</target>
+                <type>SalesforceObject</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Carendar and Events</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <subMenu>
+            <navigationMenuItem>
+                <label>Directory</label>
+                <position>0</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/account-management</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+            <navigationMenuItem>
+                <label>Calendar</label>
+                <position>1</position>
+                <publiclyAvailable>false</publiclyAvailable>
+                <target>/</target>
+                <type>InternalLink</type>
+            </navigationMenuItem>
+        </subMenu>
+        <type>MenuLabel</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Resources</label>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>/files</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

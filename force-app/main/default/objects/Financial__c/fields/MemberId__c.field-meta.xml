@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MemberId__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Member Id of the property owner.</description>
+    <label>MemberId</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Financials</relationshipLabel>
+    <relationshipName>Financials</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
